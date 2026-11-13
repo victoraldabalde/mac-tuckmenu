@@ -41,11 +41,35 @@ open ~/Applications/Tuck.app
 
 To build without installing, run `./build.sh` and the app ends up in `build/Tuck.app`.
 
-## Usage
+## Organize your menu bar
 
-1. **Choose what to hide.** Hold ⌘ and drag any menu bar icon to the left of the thin line to hide it. Icons to the right of the line always stay visible.
-2. **Collapse or expand.** Click the arrow.
-3. **Options.** Right-click the arrow (or the line) for:
+The first time you open Tuck, it shows a short how-to. Here's the same thing step by step.
+
+```
+  hidden when collapsed          always visible
+ ┌───────────────────────┐   ┌────────────────────┐
+  [Dropbox] [Zoom] [Slack]  |  ›  [Wi-Fi] [Battery] [Clock]
+                            ↑  ↑
+                       divider  arrow
+```
+
+1. **Find Tuck's two items.** Look for a thin line `|` and an arrow `›` in your menu bar, usually just left of the system icons.
+2. **Check the order.** The line must sit to the **left** of the arrow. If it doesn't, hold ⌘ and drag the line to the left of the arrow.
+3. **Pick the icons to hide.** Hold ⌘, click an icon you rarely use, and drag it anywhere to the **left** of the line. Repeat for each one.
+4. **Keep the important ones visible.** Hold ⌘ and drag icons you want to see all the time (Wi-Fi, Battery, a timer…) to the **right** of the line.
+5. **Collapse.** Click the arrow. Everything left of the line slides out of view and the arrow flips to `‹`.
+6. **Peek when you need something.** Click the arrow again to show the hidden icons, use what you need, then click to tuck them away.
+7. **Make it stick (optional).** Right-click the arrow and turn on **Open at Login**, and pick an **Auto-Hide** delay so the icons tuck themselves away after you peek.
+
+Tips:
+
+- Changed your mind about an icon? Expand, then ⌘-drag it to the other side of the line.
+- Icons of apps you open later appear wherever macOS places them, usually on the left side. ⌘-drag them where you want them.
+- On a MacBook with a notch, hiding icons frees up space, so the ones you keep don't vanish behind the notch.
+
+## Options
+
+Right-click the arrow (or the line) for:
    - **Auto-Hide** — collapse again automatically 5, 10, 30 or 60 seconds after you expand
    - **Open at Login** — start Tuck when you log in
    - **How to Choose Hidden Icons…** — a quick reminder of the steps above
