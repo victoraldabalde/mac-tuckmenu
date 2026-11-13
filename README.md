@@ -74,3 +74,7 @@ If you turned on Open at Login, turn it off before deleting, or remove Tuck unde
 ## How it works
 
 The divider is a normal menu bar item. When you collapse, Tuck stretches it to be very wide, which pushes everything to its left off-screen. When you expand, it shrinks back to a thin line. Because macOS handles the layout, Tuck needs no special permissions.
+
+## License
+
+[MIT](LICENSE)
